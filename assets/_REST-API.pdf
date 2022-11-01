@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSIT Student Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "shortcut icon" type = "x icon" href = "img/headIcon.png">
+</head>
+<body>
+    <nav id="navbars">
+        <div class="top-nav">
+            <h4><span>WEB SYSTEMS AND TECHNOLOGIES</span></h4>
+            <p>Midterm Examination</p>
+        </div>
+
+        <div class="bottom-nav">
+            <p>Class no: 0011722</p>
+            <p>Subject code: WS101</p>
+            <p>Description: Web Systems and Technologies</p>
+        </div>
+    </nav>
+
+    <div class="cover">
+        <h1><span>JAN PHILLIP M. DACALLOS</span></h1>
+        <h4><span>BSIT 3 - C</span></h4>
+    </div>
+
+    <main id="home">
+        <div class="home container">
+            <div class="illustration">
+                <img src = "img/undraw_Code_review_re_woeb.png" class = "homeImg">
+            </div>
+
+            <div class="home-content">
+                <h1>Good day, Sir <span>Dave!</span></h1>
+                <p>I am <span>Jan Phillip M. Dacallos</span> a <span>Bachelor of Science in Information Technology 3rd Year Section C student.</span> 
+                    Here is my presentation of students' data of BSIT 3rd year section C students.
+                </p>
+
+                <a href = "#table" class = "homeBtn" download="./REST-API.pdf">View Students Data...</a>
+            </div>
+        </div>
+    </main>
+
+    <main id="table">
+        <div class="table container">
+            <div class="table-header">
+                <div class="table-title">
+                    <h1><span>Students' Data</span></h1>
+                </div>
+
+                <div class="search">
+                    <button type = "button">Search</button>
+                <input type = "number" placeholder = "Enter Student ID" class = "searchId">
+                </div>
+            </div>
+
+            <div class="table-card">
+                <table class="myTable">
+                    <thead>
+                        <tr>
+                            <th>ID Number</th>
+                            <th>Student Name</th>
+                            <th>Contact Number</th>
+                            <th>Email Address</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>204097</td>
+                            <td>Alig, Kristel Jean L.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>200832</td>
+                            <td>Asio, Ruben Jr. Lutao</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>192224</td>
+                            <td>Aspa, John William Ragub</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>203659</td>
+                            <td>Atencio, Bryan G.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>210144</td>
+                            <td>Bagunas, Christian R.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>190965</td>
+                            <td>Bato, Jerry Estrera Jr.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204049</td>
+                            <td>Caimol, John Rich Mc Karlo D.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>141707</td>
+                            <td>Calixtro, Ed Christian Lim</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204005</td>
+                            <td>Castillo, Darlyn L.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>205150</td>
+                            <td>Castillo, Jeric Basierto</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>152380</td>
+                            <td>Cecilio, Edmond Morales</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204050</td>
+                            <td>Cerbito, Nicole Joy D.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr class="myName">
+                            <td>204093</td>
+                            <td>Dacallos, Jan Phillip Morallos</td>
+                            <td>09773440291</td>
+                            <td>jphillipdacallos@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>200972</td>
+                            <td>Demeterio, Jomar Laoreno</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>181223</td>
+                            <td>Dorico, Rachelle T.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>191450</td>
+                            <td>Egana, Jayson Garado</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201913</td>
+                            <td>Equiza, Raccel Diaz</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201086</td>
+                            <td>Esquillo, Ayessa Mae Lagrimas</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201163</td>
+                            <td>Infante, Joseph James Siervo</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>182576</td>
+                            <td>Lacorte, Eljober Balang</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204112</td>
+                            <td>Lascano, Bea Ivy Andrea B.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>132630</td>
+                            <td>Lim, Ivan G.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>202668</td>
+                            <td>Luna, Louie Jay Bomitivo</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>182181</td>
+                            <td>Magdaraog, Thom Aurel Cabahug</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>183396</td>
+                            <td>Manaog, Abie Hechanova.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>200962</td>
+                            <td>Martinico, Michaela Gabilan</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204134</td>
+                            <td>Morillo, Danie Boy P.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204038</td>
+                            <td>Olar, Margielou A.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>183655</td>
+                            <td>Olmedo, Aries Sabilao</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201747</td>
+                            <td>Ortiz, Danny Bobadilla</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>190292</td>
+                            <td>Parane, John Pinca</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>133603</td>
+                            <td>Pederio, Jose Paul S.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>195090</td>
+                            <td>Pelito, Janeric James Malongo</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201769</td>
+                            <td>Perez, Simon Calera</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201567</td>
+                            <td>Pinca, Chary Jane Dula</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>200848</td>
+                            <td>Poche, Neil Harvy Andales</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204146</td>
+                            <td>Pura, Nathalie Karylle P.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>153019</td>
+                            <td>Rebucas Eman Uy</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>192862</td>
+                            <td>Requiro, Jeson Ballonico</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>214971</td>
+                            <td>Reubal, Bea Canaman</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204148</td>
+                            <td>Roman King CLarence R.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>192045</td>
+                            <td>Segondo, Joshua Ocale</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>205145</td>
+                            <td>Siervo, Rostom Atencio</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>194845</td>
+                            <td>Salonga, Harlene De Juan</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>204150</td>
+                            <td>Sua, Cherilyn S.</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>180192</td>
+                            <td>Tan, Jepherson Darcy Akang</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>201179</td>
+                            <td>Tenedero, John Paul Caganda</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>205456</td>
+                            <td>Tubello, Rod Michael Espiña</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                        <tr>
+                            <td>205456</td>
+                            <td>Valem, Cristine Joy Ostonal</td>
+                            <td>09123456789</td>
+                            <td>email@address.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+           <div class="tableButtons">
+                <div class="right-buttons">
+                    <button type = "button" class = "addBtn"><img src = "img/add.png">Add</button>
+                    <button type = "button" class = "updateBtn"><img src = "img/update_30px.png">Update</button>
+                </div>
+                
+                <div class="left-button">
+                    <button type = "button" class = "deleteBtn"><img src = "img/delete_30px.png">Delete</button>
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <footer id="mainFooter">
+        <div class="footer-contents">
+            <h4>UNIVERSITY OF EASTERN PHILIPPINES</h4>
+            <h4>COLLEGE OF SCIENCE</h4>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
